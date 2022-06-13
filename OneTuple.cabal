@@ -48,6 +48,9 @@ library
     Data.Tuple.OneTuple
     Data.Tuple.Solo
     Data.Tuple.Solo.TH
+  Default-Extensions:
+        PartialTypeConstructors
+        FlexibleContexts
 
   hs-source-dirs:   src
   build-depends:
